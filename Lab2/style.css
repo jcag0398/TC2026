@@ -25,9 +25,11 @@ body{
 }
 
 .top-side{
-    width:1200px;
+    width:830px;
     height: 370px;
     background-color: #007ba7;
+    margin-bottom: none;
+    padding-bottom: none;
 }
 
 .section-body{
@@ -52,5 +54,7 @@ body{
 .photo{
     width: 370px;
     height: 370px;
+    padding:none;
+    margin:none;
 }
 
