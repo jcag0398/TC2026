@@ -1,6 +1,6 @@
 
 body{
-    font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -15,5 +15,19 @@ body{
 
 .section-body{
     margin-bottom: 60px;
+}
+
+.right-side{
+  width: 830px;
+  padding-left: 80px;
+  padding-right: 200px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.left-side {
+    width: 370px;
+    background-color: #1e2939;
+    color: #fff;
 }
 
