@@ -16,18 +16,16 @@ body{
 
 .container{
     display:flex;
-    width:1200px;
-    margin-left: auto;
-    margin-right:auto;
+    margin:none;
     background-color: #fff;
+    padding:none;
 }
 
 .top-side{
-    width:830px;
+    
     height: 250px;
     color:#fff;
     background-color: #007ba7;
-    margin-bottom: none;
     padding-left: 80px;
     padding-left: 80px;
     padding-right: 200px;
@@ -40,11 +38,15 @@ body{
 }
 
 .right-side{
-  width: 830px;
   padding-left: 80px;
   padding-right: 200px;
   padding-top: 68px;
   padding-bottom: 68px;
+}
+
+.top-side, 
+.right-side{
+    width:830px;
 }
 
 .left-side {
@@ -55,9 +57,19 @@ body{
 }
 
 .photo{
-    width: 370px;
     height: 370px;
-    padding:none;
+}
+
+.photo,
+.left-side{
+    width:370px;;
+}
+
+
+.top-side,
+.right-side,
+.photo,
+.left-side{
     margin:none;
 }
 
