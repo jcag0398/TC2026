@@ -13,6 +13,11 @@ body{
 
 }
 
+header{
+    width:1200px;
+    height: 400px;
+}
+
 .section-body{
     margin-bottom: 60px;
 }
