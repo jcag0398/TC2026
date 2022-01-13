@@ -1,0 +1,19 @@
+
+body{
+    font-family: font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display:flex;
+    width:1200px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #fff;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.section-body{
+    margin-bottom: 60px;
+}
+
