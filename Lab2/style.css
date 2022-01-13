@@ -5,6 +5,15 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.main-container{
+    width:1200px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #fff;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+
+}
+
 .container{
     display:flex;
     width:1200px;
@@ -18,6 +27,7 @@ body{
 .top-side{
     width:1200px;
     height: 400px;
+    background-color: #007ba7;
 }
 
 .section-body{
