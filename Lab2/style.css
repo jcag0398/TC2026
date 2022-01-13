@@ -22,7 +22,7 @@ body{
 }
 
 .top-side{
-    
+    width:830px;
     height: 250px;
     color:#fff;
     background-color: #007ba7;
@@ -38,15 +38,11 @@ body{
 }
 
 .right-side{
+  width:550px;
   padding-left: 80px;
   padding-right: 200px;
   padding-top: 68px;
   padding-bottom: 68px;
-}
-
-.top-side, 
-.right-side{
-    width:830px;
 }
 
 .left-side {
