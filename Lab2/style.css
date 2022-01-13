@@ -26,7 +26,7 @@ body{
 
 .top-side{
     width:1200px;
-    height: 400px;
+    height: 370px;
     background-color: #007ba7;
 }
 
@@ -47,5 +47,10 @@ body{
     width: 370px;
     background-color: #1e2939;
     color: #fff;
+}
+
+.photo{
+    width: 370px;
+    height: 370px;
 }
 
