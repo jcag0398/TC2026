@@ -31,8 +31,8 @@ body{
     padding-left: 80px;
     padding-left: 80px;
     padding-right: 200px;
-    padding-top: auto;
-    padding-bottom: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .section-body{
@@ -51,7 +51,7 @@ body{
     width: 370px;
     background-color: #1e2939;
     color: #fff;
-    padding:auto;
+    padding:30px;
 }
 
 .photo{
