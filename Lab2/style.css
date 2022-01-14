@@ -33,6 +33,10 @@ body{
     padding-bottom: 40px;
 }
 
+.name{
+    font-size: x-large;
+}
+
 .section-body{
     margin-bottom: 60px;
 }
@@ -71,5 +75,9 @@ body{
 
 .description{
     text-align: justify;
+}
+
+#main-position{
+    font-size: medium;
 }
 
