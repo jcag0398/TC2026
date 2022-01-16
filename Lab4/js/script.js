@@ -1,5 +1,3 @@
-alert("Linked correctly")
-
 let post = document.getElementById("postButton")
 let clear = document.getElementById("clearButton")
 let mark = document.getElementById("markButton")
