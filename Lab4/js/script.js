@@ -47,10 +47,6 @@ function TodoClear(){
 function TodoDel(){
     let todos = document.getElementsByName("todo")
     for(let i=0; i<todos.length; i++){
-        
-        if(todos[i].checked){
-            todos[i].parentElement.remove()
-        }
-
+        todos[i].parentElement.remove()
     }
 }
