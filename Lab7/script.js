@@ -34,10 +34,11 @@ $("body").on("click", ".animal-button", function(){
 
             let animalImage = $("<img>")
 
-            animalImage.attr("scr",results[i].images.fixed_height.url)
-            animalImage.attr("data-still", results[i].images.fixed_height.url)
-            //animalImage.attr("data-animate",)
-            //animalImage.attr("data-state",)
+            
+            animalImage.attr("data-still", results[i].images.fixed_height_still.url)
+            animalImage.attr("data-animate", results[i].images.fixed_height.url)
+            animalImage.attr("data-state","still")
+            animalImage.attr("scr", results[i].images.fixed_height_still.url)
 
             animalDiv.append(p)
             animalDiv.append(animalImage)
