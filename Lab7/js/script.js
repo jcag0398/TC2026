@@ -39,6 +39,7 @@ $("body").on("click", ".animal-button", function(){
             animalImage.attr("data-animate", results[i].images.fixed_height.url)
             animalImage.attr("data-state","still")
             animalImage.attr("src", results[i].images.fixed_height_still.url)
+            animalImage.attr("class", "gifs")
 
             animalDiv.append(p)
             animalDiv.append(animalImage)
@@ -49,7 +50,24 @@ $("body").on("click", ".animal-button", function(){
 
 })
 
+function toggleState(){
 
+    let animateURL = $(this).attr("data-animate");
+    let stillURL = $(this).attr("data-still");
+    let currentState = $(this).attr("state");
+
+    if(currentState === "still") {
+        $(this).attr("src", animateURL);
+        $(this).attr("state", "animate");
+    }else{
+        $(this).attr("src", stillURL);
+        $(this).attr("state", "still");
+    }
+    
+
+}
+
+$("body").on("click", ".gifs", toggleState);
 
 
 
